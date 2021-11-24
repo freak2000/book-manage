@@ -1,6 +1,6 @@
 <?php
 //建立数据库连接；
-$conn = mysqli_connect("localhost", "root", "191711", "library");
+$conn = mysqli_connect("localhost", "root", "your password", "library");
 //设置字符为utf-8，@抑制字符变量的声明提醒。
 @mysqli_set_charset($conn, "utf8");
 @mysqli_query($conn, "utf8");
