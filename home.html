@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo-img" src="imgs/book.png" alt="">
+            <span class="logo-text">图书管理系统</span>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="">图书管理</a></li>
+                <li><a href="">读者管理</a></li>
+                <li><a href="">借还管理</a></li>
+                <li><a href="">密码修改</a></li>
+            </ul>
+        </div>
+        <!-- <div class="resign">
+            <button id="resign-btn">注册</button>
+        </div> -->
+        <div class="btn">
+            <button id="resign-btn">
+                <a href="resign.html">注册</a>
+            </button>
+            <button id="logout-btn">退出</button>
+        </div>
+    </header>
+    <div class="content">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">书名</th>
+                <th scope="col">作者</th>
+                <th scope="col">出版社</th>
+                <th scope="col">isbn</th>
+                <th scope="col">详情</th>
+                <th scope="col">编辑</th>
+                <th scope="col">删除</th>
+                <th scope="col">剩余数量</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>金瓶梅</td>
+                <td>兰陵笑笑生</td>
+                <td>大炮出版社</td>
+                <td>4896467632</td>
+                <td>
+                  <button type="button" class="btn btn-success btn-sm">详情</button>
+                </td>
+                <td>
+                  <button type="button" class="btn btn-primary btn-sm">Success</button>
+                </td>
+                <td>
+                  <button type="button" class="btn btn-success btn-sm">Success</button>
+                </td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>肉蒲团</td>
+                <td>李月梅</td>
+                <td>飞机出版社</td>
+                <td>9526566656</td>
+                <td>
+                  <button type="button" class="btn btn-success btn-sm">Success</button>
+                </td>
+                <td>
+                  <button type="button" class="btn btn-primary btn-sm">Success</button>
+                </td>
+                <td>
+                  <button type="button" class="btn btn-success btn-sm">Success</button>
+                </td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>洛丽塔</td>
+                <td>纳博科夫</td>
+                <td>搜索出版社</td>
+                <td>4896475632</td>
+                <td>
+                  <button type="button" class="btn btn-success btn-sm">Success</button>
+                </td>
+                <td>
+                  <button type="button" class="btn btn-primary btn-sm">Success</button>
+                </td>
+                <td>
+                  <button type="button" class="btn btn-success btn-sm">Success</button>
+                </td>
+                <td>5</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</body>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-3JyvMmfSMpWbSPyCjNwU5lHJFeswLerSwlOGCGjyuhQ+HKQNQKCbIzEgGTP1MfyY" crossorigin="anonymous"></script> -->
+
+</html>

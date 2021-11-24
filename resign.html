@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/resign.css">
+</head>
+<body>
+  <div class="resign">
+    <span>请注册</span>
+    <form method="post" name="form" onsubmit="return resign()" action="resign_result.php">
+        管理者: <input type="text" name="username"><br>
+        密码: <input type="password" name="password"><br>
+        重复密码: <input type="password" name="rpassword"><br>
+        电话: <input type="text" name="tel"><br>
+        <INPUT TYPE="submit" value="提交" >
+    </form>
+</div>
+</body>
+<script>
+  function resign () {
+    var reg_name = /^(?!^$)([a-zA-Z0-9]{6,})$/;
+    if (!reg_name.test(form.name.value)) {
+      window.alert("用户名有大小写字母和数字，至少6位")
+      return false
+    }
+    if(form.password.value !== form.rpassword.value) {
+      window.alert("密码前后不相等")
+      return false
+    }
+    if(form.password.value === ''){
+      window.alert("密码为空")
+      return false
+    }
+    var reg_tel =/^[1]+[3,8]+\d{9}$/;
+    if(!reg_tel.test(form.tel.value)) {
+      window.alert("请输入正确的电话号")
+      return false
+    }
+  }
+</script>
+</html>

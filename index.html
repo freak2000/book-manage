@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="mask"></div>
+    <div class="login">
+            <span>请登录</span>
+            <form id="login" name="login"  action="check_user.php"  method="POST">
+                管理者: <input type="text" name="username"><br>
+                密码: <input type="password" name="password">
+                <div class="log-btn">
+                    <button class="confirm" type="submit" name="Submit">
+                        确定
+                    </button>
+                    <button class="empty">清空</button>
+                    <button class="confirm">
+                        <a href="resign.html">注册</a>
+                    </button>
+                </div>
+            </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  display: inline-block;
+  margin: 20px 0 0 20px;
+  text-align: center;
+}
+header {
+  height: 100px;
+  background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+  color: aliceblue;
+}
+.logo-img {
+  height: 55px;
+  width: 55px;
+}
+.logo-text {
+  font-size: 40px;
+  margin-bottom: 20px;
+  vertical-align: top
+}
+header .btn {
+  float: right;
+  font-size: 30px;
+}
+#resign-btn {
+  height: 50px;
+  width: 80px;
+  font-size: 20px;
+  margin: 20px 20px 0 0;
+  border-radius: 5px
+}
+#logout-btn {
+  height: 50px;
+  width: 80px;
+  font-size: 20px;
+  margin: 20px 20px 0 0;
+  border-radius: 5px
+}
+
+.nav {
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+.nav ul li {
+  display: inline-block;
+  font-size: 25px;
+  padding-right: 20px;
+}
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav ul li a:hover {
+  color: #ffe1c1;
+}
+.content {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  border: 1px solid #111;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.btn a {
+  text-decoration: none !important;
+  color: #fff;
+}
+.detail {
+  width: 50% ;
+  margin: 0 auto;
+  background-color: rgba(80, 182, 212, 0.521) ;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.intro {
+  display: inline-block;
+  width: 15% !important;
+}
+.intro-body {
+  display: inline-block;
+  width: 85%;
+}
+.title {
+  text-align: center;
+}
+.commit {
+  position: relative;
+  top: 30px;
+  left: 650px;
+}

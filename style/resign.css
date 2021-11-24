@@ -1,0 +1,18 @@
+body  {
+  background-color: #302f4b;
+}
+.resign {
+  position: relative;
+  top: 250px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 50px;
+  background-color: #feffef;
+  height: 350px;
+  width: 350px;
+  border-radius: 3%;
+  box-shadow:4px 5px 6px 7px rgba(0,0,0,.5)
+}
+form {
+  padding-top: 15px;
+}
